@@ -23,12 +23,11 @@ This project shows how to connect a Google Colab notebook to a MongoDB Atlas clu
 > **Colab IP allowlist tip:** Atlas needs to allow the (changing) IP from Colab. In Atlas → **Network Access**, you can temporarily choose **“Allow Access from Anywhere (0.0.0.0/0)”**. This is convenient for demos but **not recommended for production**. Remove it when you’re done.
 
 ### 2) Create a database & collection (optional)
-In Atlas, create (or let code create) a database, e.g. `AltSch_db`, and a collection, e.g. `students`.
+In Atlas, create (or let code create) a database, e.g. `Employee_db`, and a Employee_collection,`.
 
 ### 3) Open the notebook in Google Colab
 - Upload your `.ipynb` or start a new one at https://colab.research.google.com  
 - Install dependencies in the first cell:
 
 ```python
-!pip install pymongo python-dotenv
 
